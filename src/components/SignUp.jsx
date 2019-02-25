@@ -35,6 +35,7 @@ class SignUpForm extends Component {
       password: "",
       passwordConfirm: ""
     });
+    this.props.history.push("/");
   };
 
   render() {

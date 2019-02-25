@@ -106,8 +106,8 @@ export const registerUser = user => dispatch => {
       }
       return res.json();
     })
-    .then(() => {
-      dispatch(signupSuccess());
+    .then(user => {
+      storeAuthInfo(user, dispatch);
     })
     .catch(err => {
       window.alert(err);
