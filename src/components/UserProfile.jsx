@@ -11,7 +11,7 @@ const UserProfilePage = () => (
           <Card.Meta>
             <span className="date" />
           </Card.Meta>
-          <Card.Description />
+          <Card.Description>...</Card.Description>
         </Card.Content>
         <Card.Content extra>
           <Icon name="user" />
