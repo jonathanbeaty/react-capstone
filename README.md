@@ -14,6 +14,4 @@ This App is designed for Small Business Owners who don't necessarily have the ca
 • [create-react-app](https://github.com/facebook/create-react-app)</br>
 • [API's](https://en.wikipedia.org/wiki/Application_programming_interface)</br> 
 
-The above programming languages were used to build this site and make it operational. The cool technologies used to make this useful were:
-
 ![alt text](https://c1.staticflickr.com/1/904/41897000462_f1efd4ffbc_t.jpg)<i>Developed and Programmed by Jonathan Beaty &copy; 2018</i>
