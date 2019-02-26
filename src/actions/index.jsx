@@ -52,7 +52,6 @@ export const signupSuccess = () => ({
 });
 
 const storeAuthInfo = (user, dispatch) => {
-  console.log(user);
   dispatch(setAuthToken(user.authToken));
   dispatch(authSuccess(user));
 
