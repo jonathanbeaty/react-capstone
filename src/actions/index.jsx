@@ -1,4 +1,5 @@
 import { saveAuthToken } from "../local-storage";
+import { API_BASE_URL } from "../config";
 
 export const SET_SALES = "SET_SALES";
 export const setSales = sales => ({
@@ -57,8 +58,6 @@ const storeAuthInfo = (user, dispatch) => {
 
   saveAuthToken(user.authToken);
 };
-
-const API_BASE_URL = "http://localhost:8080";
 
 export const login = user => dispatch => {
   dispatch(authRequest());

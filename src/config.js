@@ -1,0 +1,1 @@
+exports.API_BASE_URL = process.env.REACT_APP_API_ORIGIN || 'https://dashboard.heroku.com/apps/react-capstone-node' || 'http://localhost:8080/'
