@@ -8,7 +8,7 @@ const BusinessUser = () => {
       <Header as="h2">What kind of Business are you?</Header>
 
       <Card>
-        <Image src="http://i.imgur.com/Mtb8loF.png" />
+        <Image src="https://i.imgur.com/Mtb8loF.png" />
         <Card.Content>
           <Link to="/testdata">
             <Card.Header>S Corp</Card.Header>
